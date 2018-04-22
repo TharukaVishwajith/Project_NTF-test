@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D62B0B5-38CF-45D1-BA8A-D14CC6EFE4D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectNTF</RootNamespace>
+    <AssemblyName>ProjectNTF</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>.\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>.\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\animation\AnimationBase.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\animation\ColorBlendAnimation.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\animation\DelayedCall.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\animation\ExpandAnimation.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\animation\MoveAnimation.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\animation\TransitionType.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\controller\AdminController.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\controller\CoacherController.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\controller\LoginController.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\controller\MemberController.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\controller\PlayerController.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\dbconnection\DBConnection.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\model\Course.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\model\ForignStudent.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\model\Match.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\model\Member.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\model\WorkedPlace.cs" />
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\AdminLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\AdminLoginForm.Designer.cs">
+      <DependentUpon>AdminLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\AdminManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\AdminManageForm.Designer.cs">
+      <DependentUpon>AdminManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\coacher\AddCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\coacher\AddCourses.Designer.cs">
+      <DependentUpon>AddCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\coacher\AddInternationalStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\coacher\AddInternationalStudent.Designer.cs">
+      <DependentUpon>AddInternationalStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\coacher\AddPlaces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\coacher\AddPlaces.Designer.cs">
+      <DependentUpon>AddPlaces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\coacher\CoacherManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\coacher\CoacherManageForm.Designer.cs">
+      <DependentUpon>CoacherManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\member\MemberManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\member\MemberManageForm.Designer.cs">
+      <DependentUpon>MemberManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\member\MemberViewAndUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\member\MemberViewAndUpdate.Designer.cs">
+      <DependentUpon>MemberViewAndUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\AddCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\AddCourses.Designer.cs">
+      <DependentUpon>AddCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\AddPlayedMatches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\AddPlayedMatches.Designer.cs">
+      <DependentUpon>AddPlayedMatches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\PlayerManageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\PlayerManageForm.Designer.cs">
+      <DependentUpon>PlayerManageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\ViewCoacherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\ViewCoacherForm.Designer.cs">
+      <DependentUpon>ViewCoacherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\ViewMatchesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edu.uok.se.finalproject.mmsforntf\view\player\ViewMatchesForm.Designer.cs">
+      <DependentUpon>ViewMatchesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="teakwondo_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>teakwondo_dbDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\AdminLoginForm.resx">
+      <DependentUpon>AdminLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\AdminManageForm.resx">
+      <DependentUpon>AdminManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\coacher\AddCourses.resx">
+      <DependentUpon>AddCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\coacher\AddInternationalStudent.resx">
+      <DependentUpon>AddInternationalStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\coacher\AddPlaces.resx">
+      <DependentUpon>AddPlaces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\coacher\CoacherManageForm.resx">
+      <DependentUpon>CoacherManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\member\MemberManageForm.resx">
+      <DependentUpon>MemberManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\member\MemberViewAndUpdate.resx">
+      <DependentUpon>MemberViewAndUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\player\AddCourses.resx">
+      <DependentUpon>AddCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\player\AddPlayedMatches.resx">
+      <DependentUpon>AddPlayedMatches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\player\PlayerManageForm.resx">
+      <DependentUpon>PlayerManageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\player\ViewCoacherForm.resx">
+      <DependentUpon>ViewCoacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edu.uok.se.finalproject.mmsforntf\view\player\ViewMatchesForm.resx">
+      <DependentUpon>ViewMatchesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="teakwondo_dbDataSet.xsc">
+      <DependentUpon>teakwondo_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="teakwondo_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>teakwondo_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="teakwondo_dbDataSet.xss">
+      <DependentUpon>teakwondo_dbDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerForm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddCoureseForm.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemberUpdateandView.JPG" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\AddCoureseForm1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addPlaces.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addPlaces1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddInternationalStudent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayerForm1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddMatchesForm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemberDetais copy.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

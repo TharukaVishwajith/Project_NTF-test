@@ -1,0 +1,59 @@
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\bin\Debug\ProjectNTF.exe.config
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\bin\Debug\ProjectNTF.exe
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\bin\Debug\ProjectNTF.pdb
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.csprojResolveAssemblyReference.cache
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.Form1.resources
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.Properties.Resources.resources
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.csproj.GenerateResource.Cache
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.exe
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.pdb
+c:\users\asus pc\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.HomePage.resources
+C:\Users\Asus PC\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\bin\Debug\MySql.Data.dll
+C:\Users\Asus PC\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\bin\Debug\itextsharp.dll
+C:\Users\Asus PC\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\bin\Debug\itextsharp.pdfa.dll
+C:\Users\Asus PC\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\bin\Debug\itextsharp.xtra.dll
+C:\Users\Asus PC\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\bin\Debug\itextsharp.xml
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.Login.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.Home.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.coacher.CoacherManageForm.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.coacher.AddCourses.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.coacher.AddPlaces.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.coacher.AddInternationalStudent.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.AddCourses.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.AddPlayedMatches.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.PlayerManageForm.resources
+C:\Users\Asus PC\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.member.MemberManageForm.resources
+C:\Users\Asus PC\documents\visual studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.member.MemberViewAndUpdate.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.ViewMatchesForm.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.ViewCoacherForm.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.AdminLoginForm.resources
+C:\Users\Asus PC\Documents\Visual Studio 2015\Projects\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.AdminManageForm.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\bin\Debug\ProjectNTF.exe.config
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.exe
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.pdb
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\bin\Debug\ProjectNTF.exe
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\bin\Debug\ProjectNTF.pdb
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\bin\Debug\itextsharp.dll
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\bin\Debug\itextsharp.pdfa.dll
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\bin\Debug\itextsharp.xtra.dll
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\bin\Debug\itextsharp.xml
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.csprojResolveAssemblyReference.cache
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.AdminLoginForm.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.AdminManageForm.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.coacher.AddCourses.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.coacher.AddInternationalStudent.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.coacher.AddPlaces.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.coacher.CoacherManageForm.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.Home.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.Login.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.member.MemberManageForm.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.member.MemberViewAndUpdate.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.AddCourses.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.AddPlayedMatches.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.PlayerManageForm.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.ViewCoacherForm.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.edu.uok.se.finalproject.mmsforntf.view.player.ViewMatchesForm.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.Form1.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.HomePage.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.Properties.Resources.resources
+I:\XChord\MyProject\ProjectNTF\ProjectNTF\obj\Debug\ProjectNTF.csproj.GenerateResource.Cache
